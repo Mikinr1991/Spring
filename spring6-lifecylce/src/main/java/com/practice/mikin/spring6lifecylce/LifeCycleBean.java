@@ -41,7 +41,7 @@ public class LifeCycleBean implements InitializingBean, DisposableBean, BeanName
 
     @PostConstruct
     public void postContruct(){
-        System.out.println("6 PostContruct. Post contruct of Bean method called");
+        System.out.println("6. PostContruct. Post contruct of Bean method called");
     }
 
     @Override
